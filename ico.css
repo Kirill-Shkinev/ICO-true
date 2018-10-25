@@ -1,0 +1,988 @@
+ @font-face{
+	font-family: 'Ubuntu';
+	src: url(Fonts/Ubuntu/Ubuntu-Light.ttf) ;
+}
+@font-face{
+	font-family: 'Ubuntu-Bold';
+	src: url(Fonts/Ubuntu/Ubuntu-Bold.ttf) ;
+}		
+*{	
+	margin:0;
+	padding: 0;
+}
+.content{
+	width: 1140px;
+	margin: 0 auto;
+}
+.main-text{
+	margin-top: -80px;
+	height: 95vh;
+	display: flex;
+	align-items: center;
+	width: 1140px;
+	position: relative;
+	z-index: 999;
+}
+.main-bottom{
+	margin-left: 270px;
+	margin-top: -60px;
+	align-self: flex-end;
+	opacity: 0.5;
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 16px;
+}
+.main{
+	margin-bottom: 95px;
+	background-image: url(img/main-back.png);
+	background-size:  cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
+	background-position: bottom center;
+}
+.main-text p{
+
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+header{
+	position: relative;
+	height: 80px;
+}
+header::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.6);
+}
+.headers{
+	padding-top: 20px;	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.nav a, .leng a{
+	position: relative;
+	display: block;
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+}
+.nav{
+	opacity: 1;
+	width: 822px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.main::before{
+	content:"";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0, .6);
+}
+.logo{
+	position: relative;
+	z-index: 9999;
+}
+.leng .nav-items::before{
+	top: 6px;
+	left: 25px;
+}
+.nav-items::before{
+	position: absolute;
+	content:"";
+	background-image: url(img/tringle-nav.png);
+	height: 8px;
+	width: 8px;
+	right: -15px;
+	top: 6px;
+}
+.main-text span{
+	color: #01B384;
+}
+h1{	
+	margin-bottom: 50px;
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+.main-text{
+	width: 1140px;
+	margin: 0 auto;
+}
+.previlage h2{
+	text-align: center;
+	margin-bottom: 45px;
+color: #071a13;
+font-family: Ubuntu-Bold;
+font-size: 50px;
+font-weight: bold bold;
+}
+.previlage .content > p{
+	text-align: center;
+	font-weight: bold;
+	color: #071a13;
+	font-family: Ubuntu;
+	font-size: 24px;
+	margin-bottom: 65px;
+}
+
+.previlage-items div{
+	margin-bottom: 40px;
+	flex-direction: column;
+	box-shadow: 0 2px 2px 3px rgba(0, 0, 0, 0.05);
+	background-color: #f8f8f8;
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	height: 280px;
+	width: 260px;
+}
+.previlage-items img{
+	margin-bottom: 35px;
+}
+.previlage-items p{
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+	font-family: Ubuntu;
+	font-size: 18px;
+	display: block;
+}
+.previlage-items{
+	display: flex;                                                            
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.why{
+	margin-top: 100px;
+
+	background-image: url(img/why-back.png);
+	background-size:  cover;
+	background-repeat: no-repeat;	
+}
+.why-text h2{
+	text-align: center;
+	padding-top: 78px;
+	margin-bottom: 36px;
+	color: #ffffff;
+	font-family: Ubuntu-Bold;
+	font-size: 65px;
+}
+.why-text p{
+	margin-bottom: 145px;
+	text-align: center;
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 24px;
+}
+.why-diagram .up p{
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 24px;
+}
+.why-diagram .center .center-one p{
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.why-diagram .center .center-four p{
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.why-diagram .center .icon p{
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	width: 220px;
+}
+.why-diagram .bottom p{
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.up{
+	width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.up img{
+	margin-bottom: 25px;
+}
+.up p{
+	margin-bottom: 100px;
+}
+.center{
+	height: 170px;	
+	position: relative;
+	width: 1100px;
+    margin: 0 auto 100px;
+    display: flex;
+    align-items: center;
+}
+.center-three, .center-two{
+	text-align: center;
+	letter-spacing: 1.5px;
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 100px;
+	position: relative;
+	margin-top: 50px;	
+	width: 220px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.icon{
+	max-height: inherit;
+	margin-bottom: -80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+}
+
+.center::before{
+	left: 35px;
+    top: -285px;
+	position: absolute;
+	content: "";
+	width: 1036px;
+	height: 783px;	
+	background: url(img/arrows.png);
+	background-repeat: no-repeat;
+}
+.bottom{
+	width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;	
+}
+
+.bottom img{
+	margin-bottom: 25px;
+}
+.bottom p{
+	margin-bottom: 130px;
+}
+.center-one{
+	margin-right: 130px;
+}
+.center-two::before{
+	top: 70px;
+	content: "";
+	width: 220px;
+	height: 3px;    
+	width: 220px;
+	position: absolute;
+	background-image: linear-gradient(to right, #3d3d3d, #ababab);
+}
+.center-two::after{
+	content: "";
+	width: 11px;
+	height: 11px;
+	border-radius: 100%;
+	background-color: #00a583;
+	margin-bottom: -105px;
+    margin-right: -50px;
+}
+.center-text{
+	padding-left: 40px;
+}
+.center-two{
+	text-align: center;
+}
+.icon img{
+	margin: 0 30px	 20px;
+}
+.center-three::after{
+	top: 70px;
+	content: "";
+	width: 220px;
+	height: 3px;
+	position: absolute;
+	background-image: linear-gradient(to right, #ababab,  #3d3d3d);
+}
+.center-three::before{
+	content: "";
+	width: 11px;
+	height: 11px;
+	border-radius: 100%;
+	background-color: #00a583;
+	margin-bottom: -105px;
+    margin-left: -40px;
+}
+.center-three{
+	margin-right: 110px;
+}
+.center-two, .icon, .center-three{
+margin-top: -30px;
+}
+.center-one, .center-four{
+	margin-top: -80px;
+}
+
+.applications{
+	width: 1140px;
+	margin: 0 auto;
+}
+.applications h2{
+	margin-bottom: 35px;
+	text-align: center;
+	width: 1140px;
+	height: 146px;
+	color: #000000;
+	font-family: Ubuntu;
+	font-size: 65px;
+	font-weight: 700;
+	line-height: 82px;
+}
+.why-diagram{
+	margin-bottom: 110px;
+}
+.applications > p{
+	text-align: center;
+	width: 1140px;
+	height: 24px;
+	color: #010101;
+	font-family: Ubuntu;
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 75px;
+}
+.app-icons div{
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	width: 160px;
+	height: 160px;
+	box-shadow: 0 2px 2px 3px rgba(0, 0, 0, 0.05);
+	background-color: #f8f8f8;
+}
+.app-icons, .app-text{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.app-text p {
+	margin-bottom: 160px;
+	text-align: center;
+	display: block;
+	width: 160px;
+	height: 50px;
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 22px;
+}
+.how{
+	width: 1140px;
+	margin: 0 auto;
+}
+.how h2{
+	margin-bottom: 35px;
+	text-align: center;
+	width: 1140px;
+	height: 64px;
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 65px;
+	line-height: 82px;
+}
+.how > p{
+	margin-bottom: 85px;
+	text-align: center;
+	width: 1140px;
+	height: 24px;
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 82px;
+}
+.creation{
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.creation-img{
+	display: block;
+	position: relative;
+}
+.creation-img::before{
+	z-index: -1;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	width: 486px;
+	height: 267px;
+	border: 1px solid #dddddd;
+}
+.creation p span{
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 24px;
+}
+.creation p{
+	margin-right: 115px;
+	width: 460px;
+	font-size: 18px;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+.setup{
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.setup p span{
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 24px;
+}
+.setup p{
+		font-size: 18px;
+	margin-left: 115px;
+	width: 460px;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+.setup-img{
+	display: block;
+	position: relative;
+}
+.setup-img::before{
+	z-index: -1;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: -60px;
+	width: 486px;
+	height: 267px;
+	border: 1px solid #dddddd;
+}
+.open{
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.open p span{
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 24px;
+}
+.open p{
+		font-size: 18px;
+	margin-right: 115px;
+	width: 460px;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+.open-img{
+	display: block;
+	position: relative;
+}
+.open-img::before{
+	z-index: -1;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	width: 486px;
+	height: 267px;
+	border: 1px solid #dddddd;
+}
+.drop{
+	margin-bottom: 170px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.drop p span{
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 24px;
+}
+.drop p{
+		font-size: 18px;
+	margin-left: 115px;
+	width: 460px;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+
+.setup-img{
+	display: block;
+	position: relative;
+}
+.setup-img::before{
+	z-index: -1;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: -60px;
+	width: 486px;
+	height: 267px;
+	border: 1px solid #dddddd;
+}
+.open{
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.open p span{
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 24px;
+}
+.open p{
+		font-size: 18px;
+	margin-right: 115px;
+	width: 460px;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+.open-img{
+	display: block;
+	position: relative;
+}
+.open-img::before{
+	z-index: -1;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	width: 486px;
+	height: 267px;
+	border: 1px solid #dddddd;
+}
+.drop{
+	margin-bottom: 170px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.drop p span{
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 24px;
+}
+.drop p{
+		font-size: 18px;
+	margin-left: 115px;
+	width: 460px;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+.drop-img{
+	display: block;
+	position: relative;
+}
+.drop-img::before{
+	z-index: -1;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: -60px;
+	width: 486px;
+	height: 267px;
+	border: 1px solid #dddddd;
+}
+.button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 186px;
+	background-color: #009a8d;
+	margin-bottom: 95px;
+}
+.button button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	background:none;
+	letter-spacing: 1.2px;
+	font-weight: bold;
+	font-family: Ubuntu;
+	font-size: 22px;
+	width: 266px;
+	height: 66px;
+	border: 2px solid #ffffff;
+}
+.cases{
+	margin: 0 auto;
+	width: 1140px;
+	display: flex;
+	flex-direction: column;	
+	justify-content: center;
+	align-items: center;
+}
+.cases h2{
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 65px;
+	margin-bottom: 95px;
+}
+.owl-carousel{
+	width: 1140px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 110px;
+}
+.services{
+	margin: 0 auto;
+	width: 1140px;
+	display: flex;
+	flex-direction: column;	
+	justify-content: center;
+	align-items: center;
+}
+.services h2{
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 65px;
+	margin-bottom: 95px;
+}
+.services > p{
+	margin-bottom: 85px;
+    text-align: center;
+    width: 1140px;
+    height: 24px;
+    color: #000000;
+    font-family: Ubuntu-Bold;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 82px;
+}
+.assistance,.service,.development,.summary{
+	position: relative;
+	width: 265px;
+	height: 342px;
+	box-shadow: 0 2px 2px 3px rgba(0, 0, 0, 0.05);
+	background-color: #f8f8f8;
+	display: flex;
+	flex-direction: column;
+}
+.items{
+	width: 1140px;
+	margin: 0 auto 107px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+h3{ 
+	margin: 50px auto 45px;
+	text-align: center;
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 22px;
+}
+.assistance::after,.service::after,.development::after,.summary::after{
+	top: 115px;
+	left: 43.5px;
+	content: "";
+	position: absolute;
+	width: 178px;
+	height: 4px;
+	background-color: #00a583;
+}
+.assistance::before, .summary::before{
+	content: "";
+	position: absolute;
+	width: 51px;
+ 	height: 44px;
+ 	background: url(img/triangle.png);
+ 	left: 110px;
+    top: 285px;
+}
+.service::before{
+	content: "";
+	position: absolute;
+	width: 127px;
+	left: 0px;
+    top: 263px;
+	height: 81px;
+ 	background: url(img/triangle_left.png);
+}
+.development::before{
+	content: "";
+	position: absolute;
+	width: 127px;
+	left: 138px;
+    top: 263px;
+	height: 81px;
+ 	background: url(img/triangle_right.png);	
+}
+.contacts{
+	height: 504px;
+	background-image: url(img/contact_background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 50px;
+}
+.contacts h2{
+	width: 308px;
+	height: 48px;
+	color: #00b384;
+	font-family: Ubuntu;
+	font-size: 65px;
+	font-weight: 400;
+	line-height: 45px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.contact{
+	padding-top: 90px;
+	width: 1140px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contact p {
+	width: 742px;
+	height: 24px;
+	color: #fefefe;
+	font-family: Ubuntu;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 45px;
+	margin-bottom: 65px;
+}
+.forms{
+	width: 1168px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.forms input{
+	margin-bottom: 45px;
+	text-align: center;	
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 45px;
+	background:none;
+	width: 380px;
+	height: 50px;
+	border: 1px solid #ffffff;
+}
+.send{
+	width: 198px;
+	height: 48px;
+	border: 2px solid #00b384;
+	background-color: #00b384;
+	color: #fefefe;
+	font-family: Ubuntu;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 33px;
+}
+.footer{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+}
+.items{
+	width: 1140px;
+	margin: 0 auto 107px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+h3{ 
+	margin: 50px auto 45px;
+	text-align: center;
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 22px;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 835px;
+	margin: 0 auto 45px;
+}
+.pages a {
+	text-decoration: none;
+	color: #071a13;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+}
+li{
+	list-style-type: none;
+}
+.pages{
+	width: 215px;
+	display: flex ;
+	align-items: center;
+	justify-content: space-between;
+}
+.page, .page-two{
+	display: flex;
+	flex-direction: column;
+}
+.pages p {
+	position: relative;
+	width: 41px;
+	height: 14px;
+	color: #00b384;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 35px;
+}
+.pages p::before{
+	display: block;
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 25px;
+	background-color: #33b185;
+	top: 25px;
+}
+.page-two{
+	margin-top: 20px;
+}
+.contact-info{
+	width: 180px;
+}
+.contact-one{
+	position: relative;
+	width: 89px;
+	height: 13px;
+	color: #00b384;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 35px;
+}
+.contact-two{
+	width: 178px;
+	height: 105px;
+	color: #071a13;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.contact-one::before{
+	display: block;
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 25px;
+	background-color: #33b185;
+	top: 24px;
+}
+.social-{
+	height: 38px;
+	width: 38px;
+	margin: 0 5px;
+}
+.social-logo{
+	width: 128px;
+	height: 38;
+	margin-bottom: 40px;
+}
+.social p{
+	width: 89px;
+	height: 13px;
+	color: #00b384;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	margin-bottom: 25px;
+}
+.social a{
+	text-decoration: none;
+}
+.social p::before{
+	display: block;
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 25px;
+	background-color: #33b185;
+	top: 24px;
+}
+.copyright{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	background-color: #323232;
+}
+.copyright p{
+	margin-right: 460px;
+	width: 310px;
+	height: 16px;
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 16px;
+}
+.copyright a{
+width: 100px;
+height: 18px;
+color: #ffffff;
+font-family: Ubuntu;
+font-size: 16px;
+font-weight: 400;
+text-decoration: underline;
+}
+
